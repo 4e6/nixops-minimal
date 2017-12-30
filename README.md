@@ -1,6 +1,13 @@
 # nixops-minimal
 
-Minimal nixops configurations
+Minimalistic nixops configurations examples
+
+## Virtualbox
+
+```
+nixops create -d mini vbox-minimal.nix
+nixops deploy -d mini
+```
 
 ## Google Compute Cloud
 
